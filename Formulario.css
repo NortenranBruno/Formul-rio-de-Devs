@@ -17,7 +17,8 @@
 }
 
 fieldset {
-    border: 0;    
+    border: 0;
+    
 }
 
 body {
@@ -64,13 +65,13 @@ button {
 fieldset.grupo .campo {
     float: left;
     margin-right: 1em;
-    
+
 }
 
 .campo input[type="text"],
 .campo[type="email"],
 .campo select,
-.campo textarea{
+.campo textarea {
     padding: 0.2em;
     border: 1px solid #59429d;
     box-shadow: 2px 2px 2px rgba(0.0.0.0.2);
@@ -81,9 +82,7 @@ fieldset.grupo .campo {
     padding-right: 1em;
 }
 
-.campo input:focus,
-.campo select:focus,
-.campo textarea:focus {
+.campo input:focus, .campo select:focus, .campo textarea:focus {
     background: #e0e0f8;
 
 }
@@ -104,18 +103,16 @@ fieldset.grupo .campo {
     transform: translate(-50%, -50%);
 }
 
-.botao:hover{
+button:hover {
+    cursor: pointer;
     background: #ccbbff;
     box-shadow: inset 2px 2px 2px rgba(0.0.0.0.2);
-    text-shadow: none;    
+    text-shadow: none;
+    
 }
 
-.botao select{
-    cursor: pointer;
+#check {
+    display: inline-block;    
 }
 
-#check{
-    display: inline-block;
-    margin-top: 10px;
-}
 
